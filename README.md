@@ -1,25 +1,27 @@
 # 🧠 Quiz App
 
-A simple and interactive **Quiz Application built with Python and Flask**.
-The application allows users to answer multiple-choice questions, receive instant results, and track their quiz score through a user-friendly web interface.
+A simple and interactive **Quiz Application built with Python and Flask**. The application provides a clean web interface where users can answer multiple-choice questions and view their final score.
 
-## 🚀 Features
+## ✨ Features
 
-* 📝 Multiple-choice quiz questions
-* 🎯 Score calculation
-* 📊 Displays final quiz results
-* 🔄 Option to restart the quiz
-* 💻 Simple and responsive web interface
-* ⚡ Fast and lightweight Flask application
-* 🐍 Built using Python
+* 📝 Multiple-choice questions
+* 🎯 Answer selection
+* 📊 Automatic score calculation
+* 🏆 Final score display
+* 🔄 Restart quiz functionality
+* 💻 User-friendly web interface
+* ⚡ Lightweight Flask backend
+* 🐍 Python-based application
 
 ## 🛠️ Technologies Used
 
-* **Python**
-* **Flask**
-* **HTML**
-* **CSS**
-* **JavaScript**
+| Technology   | Purpose                  |
+| ------------ | ------------------------ |
+| 🐍 Python    | Application logic        |
+| 🌐 Flask     | Web framework            |
+| 🎨 HTML      | Page structure           |
+| 🎨 CSS       | Styling and layout       |
+| ⚡ JavaScript | Client-side interactions |
 
 ## 📂 Project Structure
 
@@ -33,27 +35,33 @@ Quiz-App/
 
 ## ⚙️ Installation
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/quiz-app.git
 ```
 
-### 2. Open the project folder
+### 2. Navigate to the Project
 
 ```bash
 cd quiz-app
 ```
 
-### 3. Install the required packages
+### 3. Install Dependencies
 
-If `pip` is not recognized on Windows, use:
+On Windows:
 
 ```bash
 py -m pip install -r requirements.txt
 ```
 
-Otherwise:
+Or:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+If `pip` is already configured:
 
 ```bash
 pip install -r requirements.txt
@@ -61,60 +69,96 @@ pip install -r requirements.txt
 
 ## ▶️ Run the Application
 
-Run the Flask application:
-
-```bash
-python main.py
-```
-
-On Windows, you can also use:
+Start the Flask application:
 
 ```bash
 py main.py
 ```
 
-After the application starts, open your browser and visit:
+Or:
+
+```bash
+python main.py
+```
+
+The application will start on:
 
 ```text
 http://127.0.0.1:5000
 ```
 
-## 🎮 How to Use
+Open the URL in your web browser.
 
-1. Open the Quiz App in your browser.
-2. Read the question displayed on the screen.
-3. Select the correct answer.
-4. Continue through all the questions.
+## 🎮 How It Works
+
+1. Launch the Quiz App.
+2. Read the displayed question.
+3. Select your answer.
+4. Continue through the available questions.
 5. Submit the quiz.
-6. View your final score.
-7. Restart the quiz to try again.
+6. The application calculates your score.
+7. View your final result.
+8. Restart the quiz and try again.
 
-## 📸 Application Preview
+## 📸 Screenshots
 
-Add screenshots of your Quiz App here:
+Add screenshots of your application here.
+
+### Quiz Interface
 
 ```markdown
-![Quiz App Screenshot](screenshot.png)
+![Quiz Interface](screenshots/quiz-interface.png)
 ```
 
-## 📌 Future Improvements
+### Result Page
 
-* Add a timer for each question
-* Add different quiz categories
-* Add difficulty levels
-* Add a leaderboard
-* Store user scores in a database
-* Add user login and registration
-* Add more questions dynamically
-* Deploy the application online
+```markdown
+![Quiz Result](screenshots/quiz-result.png)
+```
+
+> Replace the screenshot paths with your actual image files.
+
+## 🚀 Future Enhancements
+
+Some possible improvements for future versions:
+
+* ⏱️ Add a quiz timer
+* 📚 Add multiple quiz categories
+* 🎚️ Add difficulty levels
+* 🏆 Add a leaderboard
+* 💾 Store quiz scores
+* 👤 Add user authentication
+* 📱 Improve mobile responsiveness
+* 🌐 Deploy the application online
+
+## 🎯 Project Objective
+
+The main objective of this project is to build a simple web-based quiz application while gaining practical experience with **Python, Flask, web development, application logic, and user interaction**.
+
+## 📚 Learning Outcomes
+
+Through this project, I practiced:
+
+* Python programming
+* Flask application development
+* Handling web requests
+* Managing quiz logic
+* Score calculation
+* HTML and CSS integration
+* Basic JavaScript interactions
+* Running and testing a web application
 
 ## 👨‍💻 Author
 
-**Bharath M**
+### Bharath M
 
-* GitHub: [bharathmurugan](https://github.com/bharathmurugan)
+**B.Tech Information Technology**
+
+Kongu Engineering College
+
+* GitHub: [@bharathmurugan](https://github.com/bharathmurugan)
 * LinkedIn: [Bharath M](https://linkedin.com/in/bharathm12)
 
 ## 📄 License
 
-This project is created for **learning and educational purposes**.
+This project is created for **educational and learning purposes**.
