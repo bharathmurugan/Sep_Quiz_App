@@ -2,6 +2,8 @@
 
 A simple and interactive **Quiz Application built with Python and Flask**. The application provides a clean web interface where users can answer multiple-choice questions and view their final score.
 
+---
+
 ## ✨ Features
 
 * 📝 Multiple-choice questions
@@ -13,6 +15,8 @@ A simple and interactive **Quiz Application built with Python and Flask**. The a
 * ⚡ Lightweight Flask backend
 * 🐍 Python-based application
 
+---
+
 ## 🛠️ Technologies Used
 
 | Technology   | Purpose                  |
@@ -23,6 +27,8 @@ A simple and interactive **Quiz Application built with Python and Flask**. The a
 | 🎨 CSS       | Styling and layout       |
 | ⚡ JavaScript | Client-side interactions |
 
+---
+
 ## 📂 Project Structure
 
 ```text
@@ -30,8 +36,14 @@ Quiz-App/
 │
 ├── main.py
 ├── requirements.txt
-└── README.md
+├── README.md
+│
+└── screenshots/
+    ├── quiz-interface.png
+    └── quiz-result.png
 ```
+
+---
 
 ## ⚙️ Installation
 
@@ -41,7 +53,7 @@ Quiz-App/
 git clone https://github.com/your-username/quiz-app.git
 ```
 
-### 2. Navigate to the Project
+### 2. Navigate to the Project Folder
 
 ```bash
 cd quiz-app
@@ -61,11 +73,13 @@ Or:
 python -m pip install -r requirements.txt
 ```
 
-If `pip` is already configured:
+If `pip` is configured:
 
 ```bash
 pip install -r requirements.txt
 ```
+
+---
 
 ## ▶️ Run the Application
 
@@ -81,46 +95,38 @@ Or:
 python main.py
 ```
 
-The application will start on:
+After starting the application, open your browser and visit:
 
 ```text
 http://127.0.0.1:5000
 ```
 
-Open the URL in your web browser.
+---
 
 ## 🎮 How It Works
 
 1. Launch the Quiz App.
 2. Read the displayed question.
-3. Select your answer.
+3. Select an answer.
 4. Continue through the available questions.
 5. Submit the quiz.
-6. The application calculates your score.
-7. View your final result.
-8. Restart the quiz and try again.
+6. The application calculates the score.
+7. View the final result.
+8. Restart the quiz to try again.
+
+---
 
 ## 📸 Screenshots
 
-Add screenshots of your application here.
-
 ### Quiz Interface
 
-```markdown
-![Quiz Interface](screenshots/quiz-interface.png)
-```
+![Quiz Interface](./screenshots/quiz-interface.png)
 
 ### Result Page
 
-```markdown
-![Quiz Result](screenshots/quiz-result.png)
-```
-
-> Replace the screenshot paths with your actual image files.
-
+![Quiz Result](./screenshots/quiz-result.png)
+---
 ## 🚀 Future Enhancements
-
-Some possible improvements for future versions:
 
 * ⏱️ Add a quiz timer
 * 📚 Add multiple quiz categories
@@ -131,33 +137,40 @@ Some possible improvements for future versions:
 * 📱 Improve mobile responsiveness
 * 🌐 Deploy the application online
 
+---
+
 ## 🎯 Project Objective
 
-The main objective of this project is to build a simple web-based quiz application while gaining practical experience with **Python, Flask, web development, application logic, and user interaction**.
+The main objective of this project is to develop a simple web-based quiz application while gaining practical experience in **Python, Flask, web development, application logic, and user interaction**.
+
+---
 
 ## 📚 Learning Outcomes
 
 Through this project, I practiced:
 
 * Python programming
-* Flask application development
+* Flask web application development
 * Handling web requests
-* Managing quiz logic
+* Quiz logic implementation
 * Score calculation
 * HTML and CSS integration
-* Basic JavaScript interactions
+* JavaScript interactions
 * Running and testing a web application
+
+---
 
 ## 👨‍💻 Author
 
 ### Bharath M
 
 **B.Tech Information Technology**
-
 Kongu Engineering College
 
 * GitHub: [@bharathmurugan](https://github.com/bharathmurugan)
 * LinkedIn: [Bharath M](https://linkedin.com/in/bharathm12)
+
+---
 
 ## 📄 License
 
